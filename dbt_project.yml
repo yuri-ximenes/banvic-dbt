@@ -40,5 +40,5 @@ models:
 seeds:
   banvic_dbt:
     banvic:
-      # +schema: erp_banvic  <-- Remova ou comente esta linha
+      +schema: erp_banvic
       +enabled: true
