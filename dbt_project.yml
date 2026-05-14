@@ -40,5 +40,5 @@ models:
 seeds:
   banvic_dbt: # <-- Name of the project. If you renamed your project you have to change this as well
     banvic:
-      +schema: dbt_yuri_ximenes
-      +enabled: true
+      +schema: erp_banvic
+      +enabled: false
