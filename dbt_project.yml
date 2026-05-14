@@ -38,7 +38,7 @@ models:
 
 
 seeds:
-  banvic_dbt: # <-- Name of the project. If you renamed your project you have to change this as well
+  banvic_dbt:
     banvic:
-      +schema: erp_banvic
-      +enabled: false
+      # +schema: erp_banvic  <-- Remova ou comente esta linha
+      +enabled: true
