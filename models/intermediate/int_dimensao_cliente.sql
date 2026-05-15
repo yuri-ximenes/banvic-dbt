@@ -17,7 +17,7 @@ with
             , clientes.tipo_cliente
             , clientes.ts_inclusao
             , clientes.cpfcnpj_cliente
-            , clientes.data_nascimento_ciente
+            , clientes.data_nascimento_cliente
             , clientes.endereco_cliente
             , clientes.cep_cliente
             , localidades.cidade as cidade_cliente
