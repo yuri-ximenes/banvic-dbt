@@ -40,9 +40,27 @@ sources:
               - not_null  
 
       - name: colaborador_agencia
+        description: tabela com informações de agencia.
         data_tests:
           - dbt_utils.unique_combination_of_columns:
               arguments:
                 combination_of_columns:
                   - cod_colaborador
                   - cod_agencia
+      
+      - name: contas
+        description: tabela com informações de conta bancaria.
+        columns:
+          - name: num_conta
+            data_tests:
+            - unique
+            - not_null
+            
+      - name: transacoes
+        description: tabela com informações de transacoes.
+        columns:
+          - name: cod_transacao
+            data_tests:
+            - unique
+            - not_null
+
