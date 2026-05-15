@@ -1,6 +1,6 @@
 sources:
   - name: erp
-    description: Esse é o sistema erp da banvic com os dados de clientes
+    description: Esse é o sistema erp da banvic com os dados de clientes e colaboradores
     schema: erp_banvic
     tables:
       - name: localidades
@@ -8,3 +8,9 @@ sources:
 
       - name: clientes
         description: tabela com informações de cliente
+
+      - name: colaboradores
+        description: tabela com informações de colaboradores
+
+      - name: agencias
+        description: tabela com informações de agencias
